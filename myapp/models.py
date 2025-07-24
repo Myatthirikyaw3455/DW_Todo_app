@@ -15,10 +15,12 @@ class TodoModel(models.Model):
     def __str__(self):
         return self.title
     
-#models ka function arguments ta khu ko use ml so pe kyar nyar lik tr
+#models ka function arguments ta khu ko use ml so pe kyay nyar lik tr
 #id ka variable ta khu
 # UUIDField ka datatype ko pyw tr
 #Charfield ka VARCHAR nae tu tl
 #Charfield use yin length tat mat pyy ya
 #decription mhr null and blank 2 khu lone add ya
+
+
 
