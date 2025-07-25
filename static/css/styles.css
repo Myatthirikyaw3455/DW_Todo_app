@@ -1,4 +1,58 @@
-body{
-    background-color: blue;
-    color: white;
+/* For the entire full-background Secreen*/
+*{ 
+ background-color: lavender; 
 }
+
+/* container sessions */
+.todo-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card sessions */
+.todo-card{
+    background: white ;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 11px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 7px 0;
+}
+/* Hover session */
+.todo-card:hover{
+    box-shadow: 0 8px 15px 0 gray;
+    transform: translateY(-1.5px);
+}
+
+/* TITLE SESSION */
+.header{
+    font-size: 23px;
+    text-align: center;
+    background-color: powderblue;
+    color: black;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+/*To do List items are shown in this sessions*/
+h1{
+    background-color: beige;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    border: 1px solid black;
+    max-width: 600px;
+    text-align: center;
+    
+}
+/*checkbox session */
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    accent-color: #4a8c7a;
+}
+
+
+
